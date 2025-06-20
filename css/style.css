@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+    background: white;
+    font-size: 14px;
+    line-height: 19px;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+h1{
+    font-weight: 700;
+    line-height: 87px;
+    font-size: 64px;
+    color: #fff;
+}
+h2 {
+    display: block;
+    font-size: 42px;
+    line-height: 57px;
+    color: #fff;
+}
+
+button {
+    
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+ }
+
+.address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+ .section{
+margin-top: 150px;
+ }
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: gray
+
+}
+
+.title_white {
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.logo {
+     height: 51px;
+}
+
+.btn {
+    
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color:#fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 12px 32px;
+    transition: all 0.3s;
+    
+}
+.btn:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.3s;
+    
+}
+
+.field {  
+    font-family: "Noto Sans", sans-serif;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0px 0px 11px;
+}
+
+
+.header {
+position: absolute;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 100;
+padding-top: 70px;
+text-align: center;
+
+color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px 30px;
+    margin-bottom: 150px;
+}
+
+/*================================ promo ==============================*/
+.promo {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/promo/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.promo_caption {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+
+
+.promo_subtitle{
+    margin-bottom: 50px;
+}
+
+
+.promo_social {
+    position: absolute;
+    width: 100%;
+    bottom: 32px;
+    left: 0px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.promo_social-link {
+   display: inline-block;
+   transition: transform 0.3s;
+}
+
+.promo_social-link:hover {
+    transform: scale(1.1);
+   transition: all 0.3s;
+}
+/*================================== services ===================================*/
+.services_row {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+.services_coll {
+    width: 46%;
+}
+
+
+.services_img {
+    width: 100%;
+}
+
+.services_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.services_caption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    margin-bottom: 15px;
+}
+.services_item + .services_item {
+    margin-top: 50px;
+}
+/*=================================== info =============================*/
+
+.info {
+    background-image: url(/img/info/info-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 128px;
+    padding-bottom: 144px;
+}
+
+.info_title {
+    text-align: center;
+    font-weight: 400;
+}
+/*=================================== steps =============================*/
+.steps_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.steps_coll {
+    width: 46%;
+}
+
+.steps_title {
+    max-width: 250px;
+    margin-bottom: 27px;
+}
+
+.steps_number {
+    color: gray;
+    margin-bottom: 11px;
+}
+.steps_caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: black;  
+  margin-bottom: 2px;
+}
+.steps_img {
+    width: 100%;
+}
+
+.steps_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.steps_item + .steps_item {
+    margin-top: 30px;
+}
+/*=================================== container =============================*/
+
+.container {
+    background-image: url(/img/container/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    color: #fff;
+}
+
+.container .title {
+    margin-bottom: 60px;
+}
+
+.container_body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container_coll { 
+     width: 46%;
+
+}
+/*=================================== order =============================*/
+
+.order_field {
+    margin-bottom: 60px;
+}
+
+/*=================================== contacts =============================*/
+
+.contacts_item {
+    font-size: 18px;
+    line-height: 25px;
+}
+.contacts_item + .contacts_item {
+    margin-top: 30px;
+}
+.contacts_tel {
+    display: block;
+    color: #fff;
+    transition: opacity 0.6s;
+}
+
+.contacts_tel:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+/*=================================== footer =============================*/
+
+.footer_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.footer_link {
+    display: block;
+    color: #fff;
+    transition: opacity 0.6s;
+}
+.footer_link:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
